@@ -6,13 +6,13 @@ A full-stack personal finance tracking application built with **FastAPI**, **Str
 
 ## 🖼️ Features
 
-- **Add & Update Expenses** — Log multiple expenses per day across 6 categories
-- **Daily Summary Cards** — Instant view of daily total, number of entries, and top category
-- **Analytics Dashboard** — Breakdown by category with percentage distribution
-- **Monthly Trends** — Line chart showing month-over-month spending
-- **Quick Date Filters** — This Week, This Month, Last Month, Last 3 Months
-- **Live API Status** — Sidebar indicator showing backend health
-- **Dark Luxury UI** — Refined dark theme with gold accents
+- **Add & Update Expenses** - Log multiple expenses per day across 6 categories
+- **Daily Summary Cards** - Instant view of daily total, number of entries, and top category
+- **Analytics Dashboard** - Breakdown by category with percentage distribution
+- **Monthly Trends** - Line chart showing month-over-month spending
+- **Quick Date Filters** - This Week, This Month, Last Month, Last 3 Months
+- **Live API Status** - Sidebar indicator showing backend health
+- **Dark Luxury UI** - Refined dark theme with gold accents
 
 ---
 
