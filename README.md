@@ -114,6 +114,25 @@ Visit **http://localhost:8501** in your browser.
 
 ---
 
+## ⚠️ Important Notes for Visitors
+
+### Backend Wake-up Time
+The backend is hosted on **Render's free tier** which sleeps after 15 minutes  of inactivity. If you see "API Offline" on first load, please wait 30-60 seconds and refresh the page. It will wake up automatically.
+
+### Shared Database
+This app uses a **shared database** for demo purposes, meaning all visitors see the same data. To avoid overwriting each other's entries, please test on different dates. A user login system is planned as a future enhancement.
+
+### Database Availability
+The database is hosted on **freesqldatabase.com** free tier which has a limited validity period. If the app stops working, the database may need to be renewed.
+
+## Future Enhancements
+- User authentication and login system (private data per user)
+- Budget setting and alerts
+- Export expenses to CSV or PDF
+- Mobile-friendly UI
+
+---
+
 ## Author
 - Shijin Ramesh  
 [LinkedIn](https://www.linkedin.com/in/shijinramesh/) | [Portfolio](https://www.shijinramesh.co.in/)
