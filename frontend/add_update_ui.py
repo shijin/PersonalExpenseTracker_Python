@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import datetime
 import requests
 
-API_URL = "http://localhost:8000"
+API_URL = "https://personalexpensetracker-python.onrender.com"
 
 CATEGORIES = ["Rent", "Food", "Shopping", "Entertainment", "Utilities", "Others"]
 
@@ -149,4 +149,5 @@ def add_update_tab():
                     else:
                         st.error("Failed to update expenses. Please try again.")
                 except requests.exceptions.ConnectionError:
+
                     st.error("Cannot connect to backend. Please ensure the FastAPI server is running.")
