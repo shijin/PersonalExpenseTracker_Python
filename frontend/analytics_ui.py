@@ -3,7 +3,7 @@ from datetime import datetime, date, timedelta
 import requests
 import pandas as pd
 
-API_URL = "http://localhost:8000"
+API_URL = "https://personalexpensetracker-python.onrender.com"
 
 CATEGORY_COLORS = {
     "Rent":          "#c9a96e",
@@ -233,4 +233,5 @@ def analytics_tab():
                             border-radius:4px; transition: width 0.8s ease;'></div>
             </div>
         </div>
+
         """, unsafe_allow_html=True)
