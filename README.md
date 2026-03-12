@@ -1,6 +1,6 @@
 # 💳 Personal Expense Tracker
 
-A full-stack personal finance tracking application built with **FastAPI**, **Streamlit**, and **MySQL** — featuring a classy dark UI, real-time analytics, and monthly trend visualisation.
+A full-stack personal finance tracking application built with **FastAPI**, **Streamlit**, and **MySQL** - featuring a classy dark UI, real-time analytics, and monthly trend visualisation.
 
 ---
 
@@ -111,3 +111,9 @@ Visit **http://localhost:8501** in your browser.
 - **Frontend**: Streamlit, Pandas
 - **Database**: MySQL
 - **Logging**: Python logging with rotating file handler
+
+--
+
+## Author
+Shijin Ramesh  
+[LinkedIn](https://www.linkedin.com/in/shijinramesh/) | [Portfolio](https://www.shijinramesh.co.in/)
