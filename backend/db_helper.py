@@ -18,10 +18,11 @@ logger = setup_logger('db_helper')
 connection_pool = pooling.MySQLConnectionPool(
     pool_name="expense_pool",
     pool_size=5,
-    host=os.getenv("DB_HOST", "localhost"),
-    user=os.getenv("DB_USER", "root"),
-    password=os.getenv("DB_PASSWORD", "1234"),
-    database=os.getenv("DB_NAME", "expense_manager")
+    host="sql12.freesqldatabase.com",
+    user="sql12819692",
+    password="tfg1pJAQ72",
+    database="sql12819692",
+    port=3306
 )
 
 
@@ -112,4 +113,5 @@ if __name__ == "__main__":
     print(expenses)
     summary = fetch_expense_summary("2024-08-01", "2024-08-05")
     for record in summary:
+
         print(record)
