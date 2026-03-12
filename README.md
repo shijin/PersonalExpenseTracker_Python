@@ -112,8 +112,8 @@ Visit **http://localhost:8501** in your browser.
 - **Database**: MySQL
 - **Logging**: Python logging with rotating file handler
 
---
+---
 
 ## Author
-Shijin Ramesh  
+- Shijin Ramesh  
 [LinkedIn](https://www.linkedin.com/in/shijinramesh/) | [Portfolio](https://www.shijinramesh.co.in/)
