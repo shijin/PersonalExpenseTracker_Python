@@ -1,9 +1,17 @@
 import mysql.connector
 from mysql.connector import pooling
 from contextlib import contextmanager
-from logging_setup import setup_logger
 import os
 from pathlib import Path
+import logging
+
+# Fallback logger in case logging_setup fails
+try:
+    from logging_setup import setup_logger
+    logger = setup_logger('db_helper')
+except Exception:
+    logger = logging.getLogger('db_helper')
+    logging.basicConfig(level=logging.DEBUG)
 
 try:
     import streamlit as st
@@ -119,4 +127,5 @@ if __name__ == "__main__":
     print(expenses)
     summary = fetch_expense_summary("2024-08-01", "2024-08-05")
     for record in summary:
+
         print(record)
